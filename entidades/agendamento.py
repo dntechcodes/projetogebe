@@ -21,6 +21,38 @@ class Agendamento:
         self.horario_inicio = horario_inicio
         self.horario_fim = horario_fim
 
+    def setUlid(self, ulid):
+        self.ulid = ulid
+        return self
+
+    def setCliente(self, cliente):
+        self.cliente = cliente
+        return self
+
+    def setProfissional(self, profissional):
+        self.profissional = profissional
+        return self
+
+    def setServico(self, servico):
+        self.servico = servico
+        return self
+
+    def setStatus(self, status):
+        self.status = status
+        return self
+
+    def setData(self, data):
+        self.data = data
+        return self
+
+    def setHorarioInicio(self, horario_inicio):
+        self.horario_inicio = horario_inicio
+        return self
+
+    def setHorarioFim(self, horario_fim):
+        self.horario_fim = horario_fim
+        return self
+
     def getUlid(self):
         return self.ulid
 

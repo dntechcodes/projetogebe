@@ -16,6 +16,26 @@ class Servico:
         self.preco = preco
         self.tempo_duracao = tempo_duracao
 
+    def setUlid(self, ulid):
+        self.ulid = ulid
+        return self
+
+    def setNome(self, nome):
+        self.nome = nome
+        return self
+
+    def setDescricao(self, descricao):
+        self.descricao = descricao
+        return self
+
+    def setPreco(self, preco):
+        self.preco = preco
+        return self
+
+    def setTempoDuracao(self, tempo_duracao):
+        self.tempo_duracao = tempo_duracao
+        return self
+
     def getUlid(self):
         return self.ulid
 

@@ -14,6 +14,22 @@ class Cliente:
         self.email = email
         self.telefone = telefone
 
+    def setUlid(self, ulid):
+        self.ulid = ulid
+        return self
+
+    def setNome(self, nome):
+        self.nome = nome
+        return self
+
+    def setEmail(self, email):
+        self.email = email
+        return self
+
+    def setTelefone(self, telefone):
+        self.telefone = telefone
+        return self
+
     def getUlid(self):
         return self.ulid
 

@@ -6,6 +6,14 @@ class Especialidade:
         self.ulid = ulid if ulid else str(ULID())
         self.nome = nome
 
+    def setUlid(self, ulid):
+        self.ulid = ulid
+        return self
+
+    def setNome(self, nome):
+        self.nome = nome
+        return self
+
     def getUlid(self):
         return self.ulid
 
